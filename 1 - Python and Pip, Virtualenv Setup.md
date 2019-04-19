@@ -10,6 +10,12 @@ Otherwise skip straight to Install Django/Virtualenv on a Mac OS X or Linux step
 
 ### Step 2
 
-2. Follow their instructions to install Pip and virtualenv. Activate the virtualenv you've created.
+Follow the same website's instructions to install Pip and virtualenv.
 
-[]
+In step *4. Create a new virtual env*, you don't need to name the virtualenv `yourenv`.
+
+Activate the virtualenv you've created.
+
+You don't need to follow step 6!
+
+##
