@@ -24,7 +24,9 @@ You can either jump to the instructions linked above at **1 - Setup** now and wo
 
 ## The Terminal or Command Line
 
-We'll be doing a lot of installation and running things from the command line, which in Mac can be controlled with Terminal. Technically, everything we're doing here could be done with graphical interfaces  
+We'll be doing a lot of installation and running things from the command line, which in Mac can be controlled with Terminal. Technically, everything we're doing here could be done with graphical interfaces - but doing things with the command line cuts down on the amount of mistakes you might make, and it means what you're learning can be carried across to other machines with ease.
+
+ ![./Images/terminal.jpg](./Images/terminal.jpg)
 
 > When you see text that's formatted like `cd ` above, it means they're either instructions meant to be run in your Terminal or code you could write in Python.
 
@@ -61,5 +63,6 @@ But with virtual environments, you can create smaller boxes that sit inside your
 
 #### Summary - Some Useful Virtual Environment Commands
 
-> Creating a virtual environment from Terminal
->> `virtualenv -m venv`
+> #### Creating a virtual environment from the command line
+> `virtualenv -m venv`
+> ####
