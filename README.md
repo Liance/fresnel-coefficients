@@ -28,8 +28,17 @@ We'll be doing a lot of installation and running things from the command line, w
 
  ![./Images/terminal.jpg](./Images/terminal.jpg)
 
-> When you see text that's formatted like `cd ` above, it means they're either instructions meant to be run in your Terminal or code you could write in Python.
+*A picture of what the command line interface looks like in Mac OS X. The prompt `new-host-6:~ settern%` tells us what environment we're in (new-host-6, our base system environment), where we are (~ means we're sitting in our home), and who we're currently logged in as (settern).*
 
+The command line is powerful - we can install programs, run scripts, make and destroy directories, and a bunch of other things with it. For now though, all you need to know is when you see something like this.
+
+`cd dir`
+
+or this
+
+`mkdir new_folder`
+
+it represents something you can copy and paste into your command line and run.
 
 ## Python
 
@@ -59,10 +68,41 @@ Think of virtual environments as boxes you can install packages into and run you
 
 You don't want to install two projects that might conflict with each other directly onto your system: this is a little bit like putting cats and dogs into the same box - bad stuff is going to happen if they're not separated.
 
-But with virtual environments, you can create smaller boxes that sit inside your big system box, that contain all the packages you need to run your project. If you put all your cats in their own isolated box, and all your dogs in another, you don't have to worry about them fighting with each other.
+But with virtual environments, you can create smaller boxes that sit inside your big system box, that contain all the packages you need to run your project. If you install all your cats in their own isolated box, and install all your dogs in another, you don't have to worry about them fighting with each other.
+
+Basically: try not to do `pip install [package]` when you're not in a virtual environment unless you know what you're doing!
 
 #### Summary - Some Useful Virtual Environment Commands
 
 > #### Creating a virtual environment from the command line
-> `virtualenv -m venv`
-> ####
+> `virtualenv -m yourenv`
+> Activating a virtual environment (while you're inside that folder)
+> `source bin/activate`
+> #### Exiting a virtual environment
+> `deactivate` or `source deactivate`
+
+# 2 - Installing our tools with Pip
+
+In this section, we'll be installing the tools we need with the Pip package manager. This bit's pretty simple since we won't be using them right away, but it's worth giving them all a quick introduction.
+
+- **Pandas** is a really nice Python toolset for data analysis - think Microsoft Excel on steroids. There's a lot of helpful tutorials out there for it, lots of cool extensions have been built around it, and it's got good documentation.
+
+- **
+
+- **FanFicFare** is a tool somebody's built to harvest fanfiction from the internet.
+
+**
+- ****
+
+
+# 4 - Exploring data with Pandas and Jupyter Notebook
+
+# 3 - Downloading data from WuxiaWorld
+
+`fanficfare -l https://www.wuxiaworld.co/all/`
+
+# 4 - Exploring WuxiaWorld with Pandas
+
+# 5 - Exploring Wordnets
+
+https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469
